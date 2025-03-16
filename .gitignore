@@ -1,0 +1,24 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+
+# Ignore model files (too large for GitHub)
+model_6.h5
+model_6_SavedModel_format/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files (if applicable)
+Data/
+
+# Ignore PyCharm and VSCode settings
+.idea/
+.vscode/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
